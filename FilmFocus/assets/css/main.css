@@ -921,57 +921,57 @@ section,
 /*--------------------------------------------------------------
 # Culture Category Section
 --------------------------------------------------------------*/
-.culture-category .post-entry {
+.kids-category .post-entry {
   margin-bottom: 30px;
 }
 
-.culture-category .post-entry h3 a {
+.kids-category .post-entry h3 a {
   color: var(--heading-color);
   font-weight: 600;
 }
 
-.culture-category .post-entry h3 a:hover {
+.kids-category .post-entry h3 a:hover {
   text-decoration: underline;
 }
 
-.culture-category .post-entry .thumbnail {
+.kids-category .post-entry .thumbnail {
   flex: 0 0 65%;
 }
 
 @media (max-width: 960px) {
-  .culture-category .post-entry .thumbnail {
+  .kids-category .post-entry .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.culture-category .post-entry.half .thumbnail {
+.kids-category .post-entry.half .thumbnail {
   flex: 0 0 50%;
 }
 
 @media (max-width: 768px) {
-  .culture-category .post-entry.half .thumbnail {
+  .kids-category .post-entry.half .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.culture-category .post-entry.small-img .thumbnail {
+.kids-category .post-entry.small-img .thumbnail {
   flex: 0 0 30%;
 }
 
 @media (max-width: 768px) {
-  .culture-category .post-entry.small-img .thumbnail {
+  .kids-category .post-entry.small-img .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.culture-category .border-bottom {
+.kids-category .border-bottom {
   border-color: color-mix(in srgb, var(--default-color), transparent 90%) !important;
 }
 
-.culture-category .post-meta {
+.kids-category .post-meta {
   font-size: 11px;
   letter-spacing: 0.07rem;
   text-transform: uppercase;
@@ -980,49 +980,83 @@ section,
   margin-bottom: 10px;
 }
 
-.culture-category .author .photo {
+.kids-category .author .photo {
   margin-right: 10px;
 }
 
-.culture-category .author .photo img {
+.kids-category .author .photo img {
   width: 40px;
   border-radius: 50%;
   margin-bottom: 0;
 }
 
-.culture-category .author .name h3 {
+.kids-category .author .name h3 {
   margin: 0;
   padding: 0;
   font-size: 15px;
   font-family: var(--default-font);
 }
 
-.culture-category .post-list {
+.kids-category .post-list {
   margin-bottom: 30px;
 }
 
-.culture-category .post-list img {
+.kids-category .post-list img {
   margin-bottom: 30px;
 }
 
-.culture-category .post-list h2 {
+.kids-category .post-list h2 {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
 }
 
-.culture-category .post-list h2 a {
+.kids-category .post-list h2 a {
   color: var(--heading-color);
 }
 
-.culture-category .post-list h2 a:hover {
+.kids-category .post-list h2 a:hover {
   text-decoration: underline;
 }
 
-.culture-category .post-list.lg h2 {
+.kids-category .post-list.lg h2 {
   font-size: 40px;
   line-height: 1;
+}
+
+/* From Uiverse.io by andrew-demchenk0 */ 
+.rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 30px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
 }
 
 /*--------------------------------------------------------------
