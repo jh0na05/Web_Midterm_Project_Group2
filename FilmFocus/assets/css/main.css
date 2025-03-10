@@ -992,7 +992,6 @@ section,
 
 .kids-category .author .name h3 {
   margin: 0;
-  padding: 0;
   font-size: 15px;
   font-family: var(--default-font);
 }
@@ -1023,40 +1022,6 @@ section,
 .kids-category .post-list.lg h2 {
   font-size: 40px;
   line-height: 1;
-}
-
-/* From Uiverse.io by andrew-demchenk0 */ 
-.rating:not(:checked) > input {
-  position: absolute;
-  appearance: none;
-}
-
-.rating:not(:checked) > label {
-  float: right;
-  cursor: pointer;
-  font-size: 30px;
-  color: #666;
-}
-
-.rating:not(:checked) > label:before {
-  content: '★';
-}
-
-.rating > input:checked + label:hover,
-.rating > input:checked + label:hover ~ label,
-.rating > input:checked ~ label:hover,
-.rating > input:checked ~ label:hover ~ label,
-.rating > label:hover ~ input:checked ~ label {
-  color: #e58e09;
-}
-
-.rating:not(:checked) > label:hover,
-.rating:not(:checked) > label:hover ~ label {
-  color: #ff9e0b;
-}
-
-.rating > input:checked ~ label {
-  color: #ffa723;
 }
 
 /*--------------------------------------------------------------
@@ -1129,7 +1094,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Business Category Section
+# Teens Movies Section
 --------------------------------------------------------------*/
 .business-category .post-entry {
   margin-bottom: 30px;
@@ -1233,6 +1198,75 @@ section,
 .business-category .post-list.lg h2 {
   font-size: 40px;
   line-height: 1;
+}
+
+/*--------------------------------------------------------------
+# Teens Section
+--------------------------------------------------------------*/
+.teens .teens-movie {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.teens .teens-movie img {
+  transition: 0.3s;
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.teens .teens-links {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+}
+
+.teens .teens-links .preview-link,
+.teens .teens-links .details-link {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
+}
+
+.teens .teens-links .preview-link:hover,
+.teens .teens-links .details-link:hover {
+  color: #ffffff;
+}
+
+.teens .teens-links .details-link {
+  font-size: 30px;
+  line-height: 0;
+}
+
+.teens .teens-movie:hover .kids-links {
+  opacity: 1;
+}
+
+.teens .teens-movie:hover .preview-link,
+.teens .teens-movie:hover .details-link {
+  margin-top: 0;
+}
+
+.teens .teens-movie:hover img {
+  transform: scale(1.1);
+  height: auto;
+  width: 100%;
+}
+
+.glightbox-clean .gslide-description {
+  background: #272727;
+}
+
+.glightbox-clean .gslide-title {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
 }
 
 /*--------------------------------------------------------------
