@@ -919,7 +919,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Culture Category Section
+# Kids Movie Section
 --------------------------------------------------------------*/
 .kids-category .post-entry {
   margin-bottom: 30px;
@@ -1057,6 +1057,75 @@ section,
 
 .rating > input:checked ~ label {
   color: #ffa723;
+}
+
+/*--------------------------------------------------------------
+# Kids Section
+--------------------------------------------------------------*/
+.kids .kids-movie {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.kids .kids-movie img {
+  transition: 0.3s;
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.kids .kids-links {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+}
+
+.kids .kids-links .preview-link,
+.kids .kids-links .details-link {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
+}
+
+.kids .kids-links .preview-link:hover,
+.kids .kids-links .details-link:hover {
+  color: #ffffff;
+}
+
+.kids .kids-links .details-link {
+  font-size: 30px;
+  line-height: 0;
+}
+
+.kids .kids-movie:hover .kids-links {
+  opacity: 1;
+}
+
+.kids .kids-movie:hover .preview-link,
+.kids .kids-movie:hover .details-link {
+  margin-top: 0;
+}
+
+.kids .kids-movie:hover img {
+  transform: scale(1.1);
+  height: auto;
+  width: 100%;
+}
+
+.glightbox-clean .gslide-description {
+  background: #272727;
+}
+
+.glightbox-clean .gslide-title {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
 }
 
 /*--------------------------------------------------------------
