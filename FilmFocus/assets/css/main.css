@@ -1270,9 +1270,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Lifestyle Category Section
+# Adult Movies Section
 --------------------------------------------------------------*/
-.lifestyle-category .post-meta {
+.adult-category .post-meta {
   font-size: 11px;
   letter-spacing: 0.07rem;
   text-transform: uppercase;
@@ -1281,54 +1281,123 @@ section,
   margin-bottom: 10px;
 }
 
-.lifestyle-category .author .photo {
+.adult-category .author .photo {
   margin-right: 10px;
 }
 
-.lifestyle-category .author .photo img {
+.adult-category .author .photo img {
   width: 40px;
   border-radius: 50%;
   margin-bottom: 0;
 }
 
-.lifestyle-category .author .name h3 {
+.adult-category .author .name h3 {
   margin: 0;
   padding: 0;
   font-size: 15px;
   font-family: var(--default-font);
 }
 
-.lifestyle-category .custom-border,
-.lifestyle-category .border-bottom {
+.adult-category .custom-border,
+.adult-category .border-bottom {
   border-color: color-mix(in srgb, var(--default-color), transparent 90%) !important;
 }
 
-.lifestyle-category .post-list {
+.adult-category .post-list {
   margin-bottom: 30px;
 }
 
-.lifestyle-category .post-list img {
+.adult-category .post-list img {
   margin-bottom: 30px;
 }
 
-.lifestyle-category .post-list h2 {
+.adult-category .post-list h2 {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
 }
 
-.lifestyle-category .post-list h2 a {
+.adult-category .post-list h2 a {
   color: var(--heading-color);
 }
 
-.lifestyle-category .post-list h2 a:hover {
+.adult-category .post-list h2 a:hover {
   text-decoration: underline;
 }
 
-.lifestyle-category .post-list.lg h2 {
+.adult-category .post-list.lg h2 {
   font-size: 40px;
   line-height: 1;
+}
+
+/*--------------------------------------------------------------
+# Kids Section
+--------------------------------------------------------------*/
+.adults .adults-movie {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.adults .adults-movie img {
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.adults .adults-links {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+}
+
+.adults .adults-links .preview-link,
+.adults .adults-links .details-link {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
+}
+
+.adults .adults-links .preview-link:hover,
+.adults .adults-links .details-link:hover {
+  color: #ffffff;
+}
+
+.adults .adults-links .details-link {
+  font-size: 30px;
+  line-height: 0;
+}
+
+.adults .adults-movie:hover .kids-links {
+  opacity: 1;
+}
+
+.adults .adults-movie:hover .preview-link,
+.adults .adults-movie:hover .details-link {
+  margin-top: 0;
+}
+
+.adults .adults-movie:hover img {
+  transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+}
+
+.glightbox-clean .gslide-description {
+  background: #272727;
+}
+
+.glightbox-clean .gslide-title {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
 }
 
 /*--------------------------------------------------------------
