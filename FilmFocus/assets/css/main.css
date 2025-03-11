@@ -1096,57 +1096,57 @@ section,
 /*--------------------------------------------------------------
 # Teens Movies Section
 --------------------------------------------------------------*/
-.business-category .post-entry {
+.teens-category .post-entry {
   margin-bottom: 30px;
 }
 
-.business-category .post-entry h3 a {
+.teens-category .post-entry h3 a {
   color: var(--heading-color);
   font-weight: 600;
 }
 
-.business-category .post-entry h3 a:hover {
+.teens-category .post-entry h3 a:hover {
   text-decoration: underline;
 }
 
-.business-category .post-entry .thumbnail {
+.teens-category .post-entry .thumbnail {
   flex: 0 0 65%;
 }
 
 @media (max-width: 960px) {
-  .business-category .post-entry .thumbnail {
+  .teens-category .post-entry .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.business-category .post-entry.half .thumbnail {
+.teens-category .post-entry.half .thumbnail {
   flex: 0 0 50%;
 }
 
 @media (max-width: 768px) {
-  .business-category .post-entry.half .thumbnail {
+  .teens-category .post-entry.half .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.business-category .post-entry.small-img .thumbnail {
+.teens-category .post-entry.small-img .thumbnail {
   flex: 0 0 30%;
 }
 
 @media (max-width: 768px) {
-  .business-category .post-entry.small-img .thumbnail {
+  .teens-category .post-entry.small-img .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.business-category .border-bottom {
+.teens-category .border-bottom {
   border-color: color-mix(in srgb, var(--default-color), transparent 90%) !important;
 }
 
-.business-category .post-meta {
+.teens-category .post-meta {
   font-size: 11px;
   letter-spacing: 0.07rem;
   text-transform: uppercase;
@@ -1155,47 +1155,47 @@ section,
   margin-bottom: 10px;
 }
 
-.business-category .author .photo {
+.teens-category .author .photo {
   margin-right: 10px;
 }
 
-.business-category .author .photo img {
+.teens-category .author .photo img {
   width: 40px;
   border-radius: 50%;
   margin-bottom: 0;
 }
 
-.business-category .author .name h3 {
+.teens-category .author .name h3 {
   margin: 0;
   padding: 0;
   font-size: 15px;
   font-family: var(--default-font);
 }
 
-.business-category .post-list {
+.teens-category .post-list {
   margin-bottom: 30px;
 }
 
-.business-category .post-list img {
+.teens-category .post-list img {
   margin-bottom: 30px;
 }
 
-.business-category .post-list h2 {
+.teens-category .post-list h2 {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
 }
 
-.business-category .post-list h2 a {
+.teens-category .post-list h2 a {
   color: var(--heading-color);
 }
 
-.business-category .post-list h2 a:hover {
+.teens-category .post-list h2 a:hover {
   text-decoration: underline;
 }
 
-.business-category .post-list.lg h2 {
+.teens-category .post-list.lg h2 {
   font-size: 40px;
   line-height: 1;
 }
