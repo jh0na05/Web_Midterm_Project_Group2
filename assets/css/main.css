@@ -1245,7 +1245,7 @@ section,
   line-height: 0;
 }
 
-.teens .teens-movie:hover .kids-links {
+.teens .teens-movie:hover .teens-links {
   opacity: 1;
 }
 
@@ -1376,7 +1376,7 @@ section,
   line-height: 0;
 }
 
-.adults .adults-movie:hover .kids-links {
+.adults .adults-movie:hover .adults-links {
   opacity: 1;
 }
 
