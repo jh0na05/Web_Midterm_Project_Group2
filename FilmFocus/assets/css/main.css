@@ -790,37 +790,37 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Trending Category Section
+# Trending Movie Section
 --------------------------------------------------------------*/
-.trending-category .post-entry {
+.trending-movie .post-entry {
   margin-bottom: 30px;
 }
 
-.trending-category .post-entry img {
+.trending-movie .post-entry img {
   margin-bottom: 30px;
 }
 
-.trending-category .post-entry h2 {
+.trending-movie .post-entry h2 {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
 }
 
-.trending-category .post-entry h2 a {
+.trending-movie .post-entry h2 a {
   color: var(--heading-color);
 }
 
-.trending-category .post-entry h2 a:hover {
+.trending-movie .post-entry h2 a:hover {
   text-decoration: underline;
 }
 
-.trending-category .post-entry.lg h2 {
+.trending-movie .post-entry.lg h2 {
   font-size: 40px;
   line-height: 1;
 }
 
-.trending-category .post-meta {
+.trending-movie .post-meta {
   font-size: 11px;
   letter-spacing: 0.07rem;
   text-transform: uppercase;
@@ -829,56 +829,56 @@ section,
   margin-bottom: 10px;
 }
 
-.trending-category .custom-border {
+.trending-movie .custom-border {
   border-color: color-mix(in srgb, var(--default-color), transparent 90%) !important;
 }
 
 @media (max-width: 768px) {
-  .trending-category .custom-border {
+  .trending-movie .custom-border {
     border: none !important;
   }
 }
 
-.trending-category .author .photo {
+.trending-movie .author .photo {
   margin-right: 10px;
 }
 
-.trending-category .author .photo img {
+.trending-movie .author .photo img {
   width: 40px;
   border-radius: 50%;
   margin-bottom: 0;
 }
 
-.trending-category .author .name h3 {
+.trending-movie .author .name h3 {
   margin: 0;
   padding: 0;
   font-size: 15px;
   font-family: var(--default-font);
 }
 
-.trending-category .trending {
+.trending-movie .trending {
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.trending-category .trending>h3 {
+.trending-movie .trending>h3 {
   color: var(--default-color);
   padding: 20px;
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.trending-category .trending .trending-post {
+.trending-movie .trending .trending-post {
   padding: 0;
   margin: 0;
 }
 
-.trending-category .trending .trending-post li {
+.trending-movie .trending .trending-post li {
   padding: 0;
   margin: 0;
   list-style: none;
   display: block;
 }
 
-.trending-category .trending .trending-post li a {
+.trending-movie .trending .trending-post li a {
   display: block;
   padding: 20px;
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -887,7 +887,7 @@ section,
   z-index: 2;
 }
 
-.trending-category .trending .trending-post li a .number {
+.trending-movie .trending .trending-post li a .number {
   position: absolute;
   z-index: 1;
   font-size: 5rem;
@@ -898,80 +898,80 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 95%);
 }
 
-.trending-category .trending .trending-post li a h3 {
+.trending-movie .trending .trending-post li a h3 {
   font-size: 18px;
   color: var(--default-color);
   transition: 0.3s;
 }
 
-.trending-category .trending .trending-post li a .author {
+.trending-movie .trending .trending-post li a .author {
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   font-weight: 500;
 }
 
-.trending-category .trending .trending-post li a:hover h3 {
+.trending-movie .trending .trending-post li a:hover h3 {
   color: var(--default-color);
   text-decoration: underline;
 }
 
-.trending-category .trending .trending-post li:last-child a {
+.trending-movie .trending .trending-post li:last-child a {
   border-bottom: none;
 }
 
 /*--------------------------------------------------------------
 # Kids Movie Section
 --------------------------------------------------------------*/
-.kids-category .post-entry {
+.kids-movie .post-entry {
   margin-bottom: 30px;
 }
 
-.kids-category .post-entry h3 a {
+.kids-movie .post-entry h3 a {
   color: var(--heading-color);
   font-weight: 600;
 }
 
-.kids-category .post-entry h3 a:hover {
+.kids-movie .post-entry h3 a:hover {
   text-decoration: underline;
 }
 
-.kids-category .post-entry .thumbnail {
+.kids-movie .post-entry .thumbnail {
   flex: 0 0 65%;
 }
 
 @media (max-width: 960px) {
-  .kids-category .post-entry .thumbnail {
+  .kids-movie .post-entry .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.kids-category .post-entry.half .thumbnail {
+.kids-movie .post-entry.half .thumbnail {
   flex: 0 0 50%;
 }
 
 @media (max-width: 768px) {
-  .kids-category .post-entry.half .thumbnail {
+  .kids-movie .post-entry.half .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.kids-category .post-entry.small-img .thumbnail {
+.kids-movie .post-entry.small-img .thumbnail {
   flex: 0 0 30%;
 }
 
 @media (max-width: 768px) {
-  .kids-category .post-entry.small-img .thumbnail {
+  .kids-movie .post-entry.small-img .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.kids-category .border-bottom {
+.kids-movie .border-bottom {
   border-color: color-mix(in srgb, var(--default-color), transparent 90%) !important;
 }
 
-.kids-category .post-meta {
+.kids-movie .post-meta {
   font-size: 11px;
   letter-spacing: 0.07rem;
   text-transform: uppercase;
@@ -980,46 +980,46 @@ section,
   margin-bottom: 10px;
 }
 
-.kids-category .author .photo {
+.kids-movie .author .photo {
   margin-right: 10px;
 }
 
-.kids-category .author .photo img {
+.kids-movie .author .photo img {
   width: 40px;
   border-radius: 50%;
   margin-bottom: 0;
 }
 
-.kids-category .author .name h3 {
+.kids-movie .author .name h3 {
   margin: 0;
   font-size: 15px;
   font-family: var(--default-font);
 }
 
-.kids-category .post-list {
+.kids-movie .post-list {
   margin-bottom: 30px;
 }
 
-.kids-category .post-list img {
+.kids-movie .post-list img {
   margin-bottom: 30px;
 }
 
-.kids-category .post-list h2 {
+.kids-movie .post-list h2 {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
 }
 
-.kids-category .post-list h2 a {
+.kids-movie .post-list h2 a {
   color: var(--heading-color);
 }
 
-.kids-category .post-list h2 a:hover {
+.kids-movie .post-list h2 a:hover {
   text-decoration: underline;
 }
 
-.kids-category .post-list.lg h2 {
+.kids-movie .post-list.lg h2 {
   font-size: 40px;
   line-height: 1;
 }
@@ -1096,57 +1096,57 @@ section,
 /*--------------------------------------------------------------
 # Teens Movies Section
 --------------------------------------------------------------*/
-.teens-category .post-entry {
+.teens-movie .post-entry {
   margin-bottom: 30px;
 }
 
-.teens-category .post-entry h3 a {
+.teens-movie .post-entry h3 a {
   color: var(--heading-color);
   font-weight: 600;
 }
 
-.teens-category .post-entry h3 a:hover {
+.teens-movie .post-entry h3 a:hover {
   text-decoration: underline;
 }
 
-.teens-category .post-entry .thumbnail {
+.teens-movie .post-entry .thumbnail {
   flex: 0 0 65%;
 }
 
 @media (max-width: 960px) {
-  .teens-category .post-entry .thumbnail {
+  .teens-movie .post-entry .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.teens-category .post-entry.half .thumbnail {
+.teens-movie .post-entry.half .thumbnail {
   flex: 0 0 50%;
 }
 
 @media (max-width: 768px) {
-  .teens-category .post-entry.half .thumbnail {
+  .teens-movie .post-entry.half .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.teens-category .post-entry.small-img .thumbnail {
+.teens-movie .post-entry.small-img .thumbnail {
   flex: 0 0 30%;
 }
 
 @media (max-width: 768px) {
-  .teens-category .post-entry.small-img .thumbnail {
+  .teens-movie .post-entry.small-img .thumbnail {
     flex: 0 0 100%;
     margin-bottom: 20px;
   }
 }
 
-.teens-category .border-bottom {
+.teens-movie .border-bottom {
   border-color: color-mix(in srgb, var(--default-color), transparent 90%) !important;
 }
 
-.teens-category .post-meta {
+.teens-movie .post-meta {
   font-size: 11px;
   letter-spacing: 0.07rem;
   text-transform: uppercase;
@@ -1155,47 +1155,47 @@ section,
   margin-bottom: 10px;
 }
 
-.teens-category .author .photo {
+.teens-movie .author .photo {
   margin-right: 10px;
 }
 
-.teens-category .author .photo img {
+.teens-movie .author .photo img {
   width: 40px;
   border-radius: 50%;
   margin-bottom: 0;
 }
 
-.teens-category .author .name h3 {
+.teens-movie .author .name h3 {
   margin: 0;
   padding: 0;
   font-size: 15px;
   font-family: var(--default-font);
 }
 
-.teens-category .post-list {
+.teens-movie .post-list {
   margin-bottom: 30px;
 }
 
-.teens-category .post-list img {
+.teens-movie .post-list img {
   margin-bottom: 30px;
 }
 
-.teens-category .post-list h2 {
+.teens-movie .post-list h2 {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
 }
 
-.teens-category .post-list h2 a {
+.teens-movie .post-list h2 a {
   color: var(--heading-color);
 }
 
-.teens-category .post-list h2 a:hover {
+.teens-movie .post-list h2 a:hover {
   text-decoration: underline;
 }
 
-.teens-category .post-list.lg h2 {
+.teens-movie .post-list.lg h2 {
   font-size: 40px;
   line-height: 1;
 }
@@ -1272,7 +1272,7 @@ section,
 /*--------------------------------------------------------------
 # Adult Movies Section
 --------------------------------------------------------------*/
-.adult-category .post-meta {
+.adult-movie .post-meta {
   font-size: 11px;
   letter-spacing: 0.07rem;
   text-transform: uppercase;
@@ -1281,58 +1281,58 @@ section,
   margin-bottom: 10px;
 }
 
-.adult-category .author .photo {
+.adult-movie .author .photo {
   margin-right: 10px;
 }
 
-.adult-category .author .photo img {
+.adult-movie .author .photo img {
   width: 40px;
   border-radius: 50%;
   margin-bottom: 0;
 }
 
-.adult-category .author .name h3 {
+.adult-movie .author .name h3 {
   margin: 0;
   padding: 0;
   font-size: 15px;
   font-family: var(--default-font);
 }
 
-.adult-category .custom-border,
-.adult-category .border-bottom {
+.adult-movie .custom-border,
+.adult-movie .border-bottom {
   border-color: color-mix(in srgb, var(--default-color), transparent 90%) !important;
 }
 
-.adult-category .post-list {
+.adult-movie .post-list {
   margin-bottom: 30px;
 }
 
-.adult-category .post-list img {
+.adult-movie .post-list img {
   margin-bottom: 30px;
 }
 
-.adult-category .post-list h2 {
+.adult-movie .post-list h2 {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
 }
 
-.adult-category .post-list h2 a {
+.adult-movie .post-list h2 a {
   color: var(--heading-color);
 }
 
-.adult-category .post-list h2 a:hover {
+.adult-movie .post-list h2 a:hover {
   text-decoration: underline;
 }
 
-.adult-category .post-list.lg h2 {
+.adult-movie .post-list.lg h2 {
   font-size: 40px;
   line-height: 1;
 }
 
 /*--------------------------------------------------------------
-# Kids Section
+# Adults Section
 --------------------------------------------------------------*/
 .adults .adults-movie {
   position: relative;
@@ -1595,31 +1595,24 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Starter Section Section
+# Movie Details Section
 --------------------------------------------------------------*/
-/*.starter-section {
-  /* Add your styles here */
-/*}*/
-
-/*--------------------------------------------------------------
-# Blog Details Section
---------------------------------------------------------------*/
-.blog-details {
+.movie-details {
   padding-bottom: 30px;
 }
 
-.blog-details .article {
+.movie-details .article {
   background-color: var(--surface-color);
   padding: 30px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
-.blog-details .post-img {
+.movie-details .post-img {
   margin: -30px -30px 20px -30px;
   overflow: hidden;
 }
 
-.blog-details .title {
+.movie-details .title {
   color: var(--heading-color);
   font-size: 28px;
   font-weight: 700;
@@ -1627,17 +1620,17 @@ section,
   margin: 30px 0;
 }
 
-.blog-details .content {
+.movie-details .content {
   margin-top: 20px;
 }
 
-.blog-details .content h3 {
+.movie-details .content h3 {
   font-size: 22px;
   margin-top: 30px;
   font-weight: bold;
 }
 
-.blog-details .content blockquote {
+.movie-details .content blockquote {
   overflow: hidden;
   background-color: color-mix(in srgb, var(--default-color), transparent 95%);
   padding: 60px;
@@ -1646,7 +1639,7 @@ section,
   margin: 20px 0;
 }
 
-.blog-details .content blockquote p {
+.movie-details .content blockquote p {
   color: var(--default-color);
   line-height: 1.6;
   margin-bottom: 0;
@@ -1655,7 +1648,7 @@ section,
   font-size: 22px;
 }
 
-.blog-details .content blockquote:after {
+.movie-details .content blockquote:after {
   content: "";
   position: absolute;
   left: 0;
@@ -1667,12 +1660,12 @@ section,
   margin-bottom: 20px;
 }
 
-.blog-details .meta-top {
+.movie-details .meta-top {
   margin-top: 20px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.blog-details .meta-top ul {
+.movie-details .meta-top ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -1681,135 +1674,135 @@ section,
   margin: 0;
 }
 
-.blog-details .meta-top ul li+li {
+.movie-details .meta-top ul li+li {
   padding-left: 20px;
 }
 
-.blog-details .meta-top i {
+.movie-details .meta-top i {
   font-size: 16px;
   margin-right: 8px;
   line-height: 0;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.blog-details .meta-top a {
+.movie-details .meta-top a {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-size: 14px;
   display: inline-block;
   line-height: 1;
 }
 
-.blog-details .meta-bottom {
+.movie-details .meta-bottom {
   padding-top: 10px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.blog-details .meta-bottom i {
+.movie-details .meta-bottom i {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   display: inline;
 }
 
-.blog-details .meta-bottom a {
+.movie-details .meta-bottom a {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   transition: 0.3s;
 }
 
-.blog-details .meta-bottom a:hover {
+.movie-details .meta-bottom a:hover {
   color: var(--accent-color);
 }
 
-.blog-details .meta-bottom .cats {
+.movie-details .meta-bottom .cats {
   list-style: none;
   display: inline;
   padding: 0 20px 0 0;
   font-size: 14px;
 }
 
-.blog-details .meta-bottom .cats li {
+.movie-details .meta-bottom .cats li {
   display: inline-block;
 }
 
-.blog-details .meta-bottom .tags {
+.movie-details .meta-bottom .tags {
   list-style: none;
   display: inline;
   padding: 0;
   font-size: 14px;
 }
 
-.blog-details .meta-bottom .tags li {
+.movie-details .meta-bottom .tags li {
   display: inline-block;
 }
 
-.blog-details .meta-bottom .tags li+li::before {
+.movie-details .meta-bottom .tags li+li::before {
   padding-right: 6px;
   color: var(--default-color);
   content: ",";
 }
 
-.blog-details .meta-bottom .share {
+.movie-details .meta-bottom .share {
   font-size: 16px;
 }
 
-.blog-details .meta-bottom .share i {
+.movie-details .meta-bottom .share i {
   padding-left: 5px;
 }
 
 /*--------------------------------------------------------------
-# Blog Comments Section
+# Movie Comments Section
 --------------------------------------------------------------*/
-.blog-comments {
+.movie-comments {
   padding: 10px 0;
 }
 
-.blog-comments .comments-count {
+.movie-comments .comments-count {
   font-weight: bold;
 }
 
-.blog-comments .comment {
+.movie-comments .comment {
   margin-top: 30px;
   position: relative;
 }
 
-.blog-comments .comment .comment-img {
+.movie-comments .comment .comment-img {
   margin-right: 14px;
 }
 
-.blog-comments .comment .comment-img img {
+.movie-comments .comment .comment-img img {
   width: 60px;
 }
 
-.blog-comments .comment h5 {
+.movie-comments .comment h5 {
   font-size: 16px;
   margin-bottom: 2px;
 }
 
-.blog-comments .comment h5 a {
+.movie-comments .comment h5 a {
   font-weight: bold;
   color: var(--default-color);
   transition: 0.3s;
 }
 
-.blog-comments .comment h5 a:hover {
+.movie-comments .comment h5 a:hover {
   color: var(--accent-color);
 }
 
-.blog-comments .comment h5 .reply {
+.movie-comments .comment h5 .reply {
   padding-left: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.blog-comments .comment h5 .reply i {
+.movie-comments .comment h5 .reply i {
   font-size: 20px;
 }
 
-.blog-comments .comment time {
+.movie-comments .comment time {
   display: block;
   font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin-bottom: 5px;
 }
 
-.blog-comments .comment.comment-reply {
+.movie-comments .comment.comment-reply {
   padding-left: 40px;
 }
 
@@ -1895,19 +1888,19 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Blog Posts Section
+# Movie Posts Section
 --------------------------------------------------------------*/
-.blog-posts article {
+.movie-posts article {
   background-color: var(--surface-color);
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
 }
 
-.blog-posts .post-img img {
+.movie-posts .post-img img {
   transition: 0.5s;
 }
 
-.blog-posts .post-date {
+.movie-posts .post-date {
   background-color: var(--accent-color);
   color: var(--contrast-color);
   position: absolute;
@@ -1919,11 +1912,11 @@ section,
   font-weight: 500;
 }
 
-.blog-posts .post-content {
+.movie-posts .post-content {
   padding: 30px;
 }
 
-.blog-posts .post-title {
+.movie-posts .post-title {
   font-size: 20px;
   color: var(--heading-color);
   font-weight: 700;
@@ -1931,26 +1924,26 @@ section,
   margin-bottom: 15px;
 }
 
-.blog-posts .meta i {
+.movie-posts .meta i {
   font-size: 16px;
   color: var(--accent-color);
 }
 
-.blog-posts .meta span {
+.movie-posts .meta span {
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.blog-posts p {
+.movie-posts p {
   margin-top: 20px;
 }
 
-.blog-posts hr {
+.movie-posts hr {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   margin-bottom: 15px;
 }
 
-.blog-posts .readmore {
+.movie-posts .readmore {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -1959,42 +1952,42 @@ section,
   color: color-mix(in srgb, var(--heading-color), transparent 20%);
 }
 
-.blog-posts .readmore i {
+.movie-posts .readmore i {
   line-height: 0;
   margin-left: 6px;
   font-size: 16px;
 }
 
-.blog-posts article:hover .post-title,
-.blog-posts article:hover .readmore {
+.movie-posts article:hover .post-title,
+.movie-posts article:hover .readmore {
   color: var(--accent-color);
 }
 
-.blog-posts article:hover .post-img img {
+.movie-posts article:hover .post-img img {
   transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
-# Blog Pagination Section
+# Movie Pagination Section
 --------------------------------------------------------------*/
-.blog-pagination {
+.movie-pagination {
   padding-top: 0;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.blog-pagination ul {
+.movie-pagination ul {
   display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.blog-pagination li {
+.movie-pagination li {
   margin: 0 5px;
   transition: 0.3s;
 }
 
-.blog-pagination li a {
+.movie-pagination li a {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding: 7px 16px;
   display: flex;
@@ -2002,90 +1995,91 @@ section,
   justify-content: center;
 }
 
-.blog-pagination li a.active,
-.blog-pagination li a:hover {
+.movie-pagination li a.active,
+.movie-pagination li a:hover {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
 
-.blog-pagination li a.active a,
-.blog-pagination li a:hover a {
+.movie-pagination li a.active a,
+.movie-pagination li a:hover a {
   color: var(--contrast-color);
 }
 
 /*--------------------------------------------------------------
-# Contact Section
+# Collection Section
 --------------------------------------------------------------*/
 .contact .info-item+.info-item {
   margin-top: 40px;
 }
 
-.contact .info-item i {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-size: 20px;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  transition: all 0.3s ease-in-out;
-  margin-right: 15px;
+/*--------------------------------------------------------------
+# Collections Section
+--------------------------------------------------------------*/
+.collection .collection-movie {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.contact .info-item h3 {
-  padding: 0;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
-.contact .php-email-form {
+.collection .collection-movie img {
+  transition: 0.3s;
   height: 100%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+.collection .collection-links {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 3;
 }
 
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
+.collection .collection-links .preview-link,
+.collection .collection-links .details-link {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
 }
 
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
+.collection .collection-links .preview-link:hover,
+.collection .collection-links .details-link:hover {
+  color: #ffffff;
 }
 
-.contact .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 30px;
-  transition: 0.4s;
-  border-radius: 4px;
+.collection .collection-links .details-link {
+  font-size: 30px;
+  line-height: 0;
 }
 
-.contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+.collection .collection-movie:hover .kids-links {
+  opacity: 1;
+}
+
+.collection .collection-movie:hover .preview-link,
+.collection .collection-movie:hover .details-link {
+  margin-top: 0;
+}
+
+.collection .collection-movie:hover img {
+  transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+}
+
+.glightbox-clean .gslide-description {
+  background: #272727;
+}
+
+.glightbox-clean .gslide-title {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
 }
 
 /*--------------------------------------------------------------
@@ -2116,12 +2110,12 @@ section,
   margin-bottom: 0;
 }
 
-.blog-author-widget img {
+.movie-author-widget img {
   max-width: 120px;
   margin-right: 20px;
 }
 
-.blog-author-widget h4 {
+.movie-author-widget h4 {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 0px;
@@ -2129,21 +2123,21 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.blog-author-widget .social-links {
+.movie-author-widget .social-links {
   margin: 5px 0;
 }
 
-.blog-author-widget .social-links a {
+.movie-author-widget .social-links a {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   margin-right: 5px;
   font-size: 18px;
 }
 
-.blog-author-widget .social-links a:hover {
+.movie-author-widget .social-links a:hover {
   color: var(--accent-color);
 }
 
-.blog-author-widget p {
+.movie-author-widget p {
   font-style: italic;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin: 10px 0 0 0;
@@ -2265,11 +2259,11 @@ section,
   font-size: 14px;
 }
 
-.blog-author-widget-2 img {
+.movie-author-widget-2 img {
   max-width: 160px;
 }
 
-.blog-author-widget-2 h4 {
+.movie-author-widget-2 h4 {
   font-weight: 600;
   font-size: 24px;
   margin: 15px 0 0 0;
@@ -2277,144 +2271,22 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.blog-author-widget-2 .social-links {
+.movie-author-widget-2 .social-links {
   margin: 5px 0;
 }
 
-.blog-author-widget-2 .social-links a {
+.movie-author-widget-2 .social-links a {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   margin: 0 3px;
   font-size: 18px;
 }
 
-.blog-author-widget-2 .social-links a:hover {
+.movie-author-widget-2 .social-links a:hover {
   color: var(--accent-color);
 }
 
-.blog-author-widget-2 p {
+.movie-author-widget-2 p {
   font-style: italic;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin: 10px 0 0 0;
-}
-
-/*--------------------------------------------------------------
-# Sign-up and Log-in Section
---------------------------------------------------------------*/
-
-/* From Uiverse.io by micaelgomestavares */ 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: #ffffff;
-  padding: 30px;
-  width: 450px;
-  border-radius: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-::placeholder {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.form button {
-  align-self: flex-end;
-}
-
-.flex-column > label {
-  color: #151717;
-  font-weight: 600;
-}
-
-.inputForm {
-  border: 1.5px solid #ecedec;
-  border-radius: 10px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-  transition: 0.2s ease-in-out;
-}
-
-.input {
-  margin-left: 10px;
-  border-radius: 10px;
-  border: none;
-  width: 85%;
-  height: 100%;
-}
-
-.input:focus {
-  outline: none;
-}
-
-.inputForm:focus-within {
-  border: 1.5px solid #2d79f3;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  justify-content: space-between;
-}
-
-.flex-row > div > label {
-  font-size: 14px;
-  color: black;
-  font-weight: 400;
-}
-
-.span {
-  font-size: 14px;
-  margin-left: 5px;
-  color: #2d79f3;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.button-submit {
-  margin: 20px 0 10px 0;
-  background-color: #151717;
-  border: none;
-  color: white;
-  font-size: 15px;
-  font-weight: 500;
-  border-radius: 10px;
-  height: 50px;
-  width: 100%;
-  cursor: pointer;
-}
-
-.button-submit:hover {
-  background-color: #252727;
-}
-
-.p {
-  text-align: center;
-  color: black;
-  font-size: 14px;
-  margin: 5px 0;
-}
-
-.btn {
-  margin-top: 10px;
-  width: 100%;
-  height: 50px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-  gap: 10px;
-  border: 1px solid #ededef;
-  background-color: white;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-}
-
-.btn:hover {
-  border: 1px solid #2d79f3;
-  ;
 }
