@@ -180,7 +180,7 @@ h6 {
 }
 
 .header .header-social-links a:hover {
-  color: var(--accent-color);
+  color: black;
 }
 
 .header .header-social-links a i {
@@ -224,7 +224,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: black;
     padding: 18px 15px;
     font-size: 14px;
     font-family: var(--nav-font);
@@ -251,7 +251,8 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: black;
+    font-weight: bold;
   }
 
   .navmenu .dropdown ul {
@@ -278,7 +279,7 @@ h6 {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    color: var(--nav-dropdown-color);
+    color: black;
   }
 
   .navmenu .dropdown ul a i {
@@ -288,7 +289,8 @@ h6 {
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
-    color: var(--nav-dropdown-hover-color);
+    color: blue;
+    font-weight: bold;
   }
 
   .navmenu .dropdown:hover>ul {
@@ -2256,6 +2258,211 @@ section,
 }
 
 .action div h3 {
+  margin-top: 5px;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Comedy Movie Section
+--------------------------------------------------------------*/
+.comedy .comedy-movie {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  pointer-events: none;
+}
+
+.comedy .comedy-movie img {
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.comedy {
+  font-size: 30px;
+  line-height: 0;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
+}
+
+.comedy .comedy-movie:hover img {
+  transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+}
+
+.comedy div h3 {
+  margin-top: 5px;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Horror Movie Section
+--------------------------------------------------------------*/
+.horror .horror-movie {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  pointer-events: none;
+}
+
+.horror .horror-movie img {
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.horror {
+  font-size: 30px;
+  line-height: 0;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
+}
+
+.horror .horror-movie:hover img {
+  transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+}
+
+.horror div h3 {
+  margin-top: 5px;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Romance Movie Section
+--------------------------------------------------------------*/
+.romance .romance-movie {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  pointer-events: none;
+}
+
+.romance .romance-movie img {
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.romance {
+  font-size: 30px;
+  line-height: 0;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
+}
+
+.romance .romance-movie:hover img {
+  transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+}
+
+.romance div h3 {
+  margin-top: 5px;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Animation Movie Section
+--------------------------------------------------------------*/
+.animation .animation-movie {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  pointer-events: none;
+}
+
+.animation .animation-movie img {
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.animation {
+  font-size: 30px;
+  line-height: 0;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
+}
+
+.animation .animation-movie:hover img {
+  transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+}
+
+.animation div h3 {
+  margin-top: 5px;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Great Movies Section
+--------------------------------------------------------------*/
+.great .great-movie {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  pointer-events: none;
+}
+
+.great .great-movie img {
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.great {
+  font-size: 30px;
+  line-height: 0;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  line-height: 1.2;
+  margin: 30px 8px 0 8px;
+}
+
+.great .great-movie:hover img {
+  transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+}
+
+.great div h3 {
   margin-top: 5px;
   font-size: 23px;
   font-weight: 600;
