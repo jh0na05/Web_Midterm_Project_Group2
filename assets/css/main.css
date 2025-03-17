@@ -1809,6 +1809,218 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Award Details Section
+--------------------------------------------------------------*/
+.award-details {
+  padding-bottom: 30px;
+}
+
+.award-details .article {
+  background-color: var(--surface-color);
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.award-details .post-img {
+  margin: -30px -30px 20px -30px;
+  overflow: hidden;
+}
+
+.award-details .title {
+  color: var(--heading-color);
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.award-details .content {
+  margin-top: 20px;
+}
+
+.award-details .content h3 {
+  font-size: 22px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.award-details .content blockquote {
+  overflow: hidden;
+  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+  padding: 60px;
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.award-details .content blockquote p {
+  color: var(--default-color);
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.award-details .content blockquote:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: var(--accent-color);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.award-details .meta-top {
+  margin-top: 20px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.award-details .meta-top ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.award-details .meta-top ul li+li {
+  padding-left: 20px;
+}
+
+.award-details .meta-top i {
+  font-size: 16px;
+  margin-right: 8px;
+  line-height: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.award-details .meta-top a {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1;
+}
+
+.award-details .meta-bottom {
+  padding-top: 10px;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.award-details .meta-bottom i {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  display: inline;
+}
+
+.award-details .meta-bottom a {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  transition: 0.3s;
+}
+
+.award-details .meta-bottom a:hover {
+  color: var(--accent-color);
+}
+
+.award-details .meta-bottom .cats {
+  list-style: none;
+  display: inline;
+  padding: 0 20px 0 0;
+  font-size: 14px;
+}
+
+.award-details .meta-bottom .cats li {
+  display: inline-block;
+}
+
+.award-details .meta-bottom .tags {
+  list-style: none;
+  display: inline;
+  padding: 0;
+  font-size: 14px;
+}
+
+.award-details .meta-bottom .tags li {
+  display: inline-block;
+}
+
+.award-details .meta-bottom .tags li+li::before {
+  padding-right: 6px;
+  color: var(--default-color);
+  content: ",";
+}
+
+.award-details .meta-bottom .share {
+  font-size: 16px;
+}
+
+.award-details .meta-bottom .share i {
+  padding-left: 5px;
+}
+
+/*--------------------------------------------------------------
+# Award Comments Section
+--------------------------------------------------------------*/
+.award-comments {
+  padding: 10px 0;
+}
+
+.award-comments .comments-count {
+  font-weight: bold;
+}
+
+.award-comments .comment {
+  margin-top: 30px;
+  position: relative;
+}
+
+.award-comments .comment .comment-img {
+  margin-right: 14px;
+}
+
+.award-comments .comment .comment-img img {
+  width: 60px;
+}
+
+.award-comments .comment h5 {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.award-comments .comment h5 a {
+  font-weight: bold;
+  color: var(--default-color);
+  transition: 0.3s;
+}
+
+.award-comments .comment h5 a:hover {
+  color: var(--accent-color);
+}
+
+.award-comments .comment h5 .reply {
+  padding-left: 10px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.award-comments .comment h5 .reply i {
+  font-size: 20px;
+}
+
+.award-comments .comment time {
+  display: block;
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  margin-bottom: 5px;
+}
+
+.award-comments .comment.comment-reply {
+  padding-left: 40px;
+}
+
+/*--------------------------------------------------------------
 # Comment Form Section
 --------------------------------------------------------------*/
 .comment-form {
@@ -2005,6 +2217,45 @@ section,
 
 .movie-pagination li a.active a,
 .movie-pagination li a:hover a {
+  color: var(--contrast-color);
+}
+
+/*--------------------------------------------------------------
+# Award Pagination Section
+--------------------------------------------------------------*/
+.award-pagination {
+  padding-top: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.award-pagination ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.award-pagination li {
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.award-pagination li a {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  padding: 7px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.award-pagination li a.active,
+.award-pagination li a:hover {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.award-pagination li a.active a,
+.award-pagination li a:hover a {
   color: var(--contrast-color);
 }
 
